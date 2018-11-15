@@ -24,7 +24,7 @@ sleep(5)
 class Main_Client(Client):
 	QA=QA
 	bool=False #it's just for a frist messg when this bot is start frist time'
-	color={'Lite_Purple':ThreadColor.BILOBA_FLOWER,'Pink':ThreadColor.BRILLIANT_ROSE,'Brown_Shade':ThreadColor.CAMEO,'Sky_Blue':ThreadColor.DEEP_SKY_BLUE,'Farn':ThreadColor.FERN,'Lite_Green':ThreadColor.FREE_SPEECH_GREEN,'Golden_Poppy':ThreadColor.GOLDEN_POPPY,'Lite_Coral':ThreadColor.LIGHT_CORAL,'Medium_Slate_Blue':ThreadColor.MEDIUM_SLATE_BLUE,'Messenger_Blue':ThreadColor.MESSENGER_BLUE,'Picton_Blue':ThreadColor.PICTON_BLUE,'Pumpkin':ThreadColor.PUMPKIN,'Red':ThreadColor.RADICAL_RED,'Shocking':ThreadColor.SHOCKING,'Viking':ThreadColor.VIKING}#It's for change the conversition color
+	color={'Lite_purple':ThreadColor.BILOBA_FLOWER,'Pink':ThreadColor.BRILLIANT_ROSE,'Brown_shade':ThreadColor.CAMEO,'Sky_blue':ThreadColor.DEEP_SKY_BLUE,'Farn':ThreadColor.FERN,'Lite_green':ThreadColor.FREE_SPEECH_GREEN,'Golden_poppy':ThreadColor.GOLDEN_POPPY,'Lite_coral':ThreadColor.LIGHT_CORAL,'Medium_slate_blue':ThreadColor.MEDIUM_SLATE_BLUE,'Messenger_blue':ThreadColor.MESSENGER_BLUE,'Picton_blue':ThreadColor.PICTON_BLUE,'Pumpkin':ThreadColor.PUMPKIN,'Red':ThreadColor.RADICAL_RED,'Shocking':ThreadColor.SHOCKING,'Viking':ThreadColor.VIKING}#It's for change the conversition color
 	help="Here You Find a list of commands\n1.Change Colour To [colour name]\n2.Show ChatColours\n3.Change Emoji To [emoji]\n4.Change Nickname To [Name]"#help menu
 	def onMessage(self,author_id,message_object,thread_id=None,thread_type=ThreadType.USER,**kwargs):
 		self.markAsRead(author_id)
